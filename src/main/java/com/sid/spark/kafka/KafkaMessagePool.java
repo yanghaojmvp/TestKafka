@@ -8,8 +8,7 @@ package com.sid.spark.kafka;
 public class KafkaMessagePool {
 
 
-
-    public static final String test001_sdk_begin_log="2020-05-09_19:21:31 [http-nio-28956-exec-6] INFO util.LogUtil:76: NormalLog " +
+    public static final String test001_sdk_begin_log = "2020-05-09_19:21:31 [http-nio-28956-exec-6] INFO util.LogUtil:76: NormalLog " +
             "group=banyan<!>type=sdk_begin<!>sdkVersion=0.0.6.14-SNAPSHOT<!>indexAlias=WEIBO_CONTENT<!>interfaceType=search<!>appkey=ban" +
             "<!>searchType=ScrollType<!>isShowDetailUser=false<!>isShowFriends=false<!>query={  \"query\" : {    \"bool\" : {      \"filter\" : [  " +
             "      {          \"range\" : {            \"publish_time\" : {              \"from\" : 1582992000,              \"to\" : 1583424000,  " +
@@ -24,7 +23,7 @@ public class KafkaMessagePool {
             "=DnF1ZXJ5VGhlbkZldGNoFAAAAAACMAccFkotdEx2MVJnVGh5LXVwT0FXRnE0SlEAAAAAAavVmhZYZmFoeDllM1JOaVlqRnhyc0xmbzR3AAAAAAJhPJwWZDlWWV9paDFUTDIxdnVFOTlrTUNCUQAAAAACSr-VFm1oQlEzaGRnVEVTZHo0c01QaE1rUlEAAAAAAoXo7hY2LXQ3MjRHelJLcXRlVXhaZ25PTDBnAAAAAAKIhD8WekxMdlFNLVZUaG1nOTNXc19xT1ItQQAAAAAB1BNUFkVodll6WTlkVHFHLTBmOHA4SUs1eVEAAAAAAZEsohZxNkdwRnNuQ1NPT2ZMb0xsNzJNVkFnAAAAAAF1I3sWaWI2enBMOTRSS20ydDE4SmZvTlZlQQAAAAACpOe8Fk00MXNtdERRUjVXZS1OcUF1ajFLZWcAAAAAAkLgRRY0SDd0ZWhDV1FGbUcxRVMzQVJUdEFRAAAAAAHMRV8WZDdITHdyNWRRUU85MVBsSHItYnU5ZwAAAAACKpIfFk4wQXNUNE5NUTRtOTJwdm94Y2Z0WlEAAAAAAf53gRZ5cjU5eV9OaVFzR3BJVTZuWF9OYUFBAAAAAAGzOZ8WNVp3SF9xLVFUeW1RV1UtNnFfVFhfZwAAAAABoEcNFmZ1dExQQTRQUlc2Ulloa0QwQWtFX2cAAAAAAZ_HGhY3bXJhMFJlNVFieU0xNkZZb0xVWlB3AAAAAAGg-OYWUGM2Q2tRd25UeUtvM0pmSlpEVVRpZwAAAAAB8XOgFkp1OHZKOEFmUUxXNlJnMDBxbmV4RHcAAAAAAkMogRY5dkFoWDhKU1M4eVljWWRoS0hhazJR<!>routeTime=0.000<!>esTime=0.155<!>hbaseTime=3549.165<!>totalTime=3549.320<!>errMsg=com.datatub.banyan.exception.hbase.HBaseException: {\"message\":\"Failed 111 actions: IOException: 111 times, \"}<!>code=1<!>sdkVersion=0.0.6.14-SNAPSHOT<!>indexAlias=WEIBO_CONTENT<!>interfaceType=search<!>appkey=ban<!>searchType=ScrollType<!>isShowDetailUser=false<!>isShowFriends=false<!>logId=a8e8dcb298e52aa9b8c9a8e4abc3dbb0\n";
 
 
-    public static final String test001_sdk_normal_error_log ="2020-05-09_20:20:40 [http-nio-28956-exec-6] INFO util.LogUtil:265: NormalLog " +
+    public static final String test001_sdk_normal_error_log = "2020-05-09_20:20:40 [http-nio-28956-exec-6] INFO util.LogUtil:265: NormalLog " +
             "group=banyan<!>type=sdk_normal_error<!>query={  \"query\" : {    \"bool\" : {      \"filter\" : [        {          \"range\" : {     " +
             "       \"publish_time\" : {              \"from\" : 1582992000,              \"to\" : 1583424000,              \"include_lower\" : " +
             "true,              \"include_upper\" : true,              \"boost\" : 1.0            }          }        }      ],      " +
@@ -133,8 +132,6 @@ public class KafkaMessagePool {
             "\"disable_coord\" : false,      \"adjust_pure_negative\" : true,      \"boost\" : 1.0    }  " +
             "}}<!>realTotal=7<!>total=7<!>isEnd=false<!>scrollId" +
             "=DnF1ZXJ5VGhlbkZldGNoFAAAAAABzQwjFjl2QWhYOEpTUzh5WWNZZGhLSGFrMlEAAAAAAcpujRZtYS03TXlyc1FXdVdTV2dCSm1nWWF3AAAAAAGpEhEWOEZ0d19WVHNRRE9oZW56N0xSelY0QQAAAAABt9d0FnhXZWk1alZPUjdXYkdidEJZcTIzT3cAAAAAAaobjhZPSHg4UXA0UFJtdXowdUYtS3ZaTnBRAAAAAAHQwJUWY0I1WFlpLWVTajZOTVRDZl9fZHB1dwAAAAAAFBeQFnVEUjZXZjJLUkVxclVGaUNERkxkY2cAAAAAAd3__BZ5cjU5eV9OaVFzR3BJVTZuWF9OYUFBAAAAAADfHUgWUENEcktmTGRRMUdZZlJxc0VsNEQ1ZwAAAAABzJBeFklKT1pQUzBLUnRhZGNrX0oxLVhobEEAAAAAAemlzhZmcHVsX3pIalM4R0lMaVlyVlhpeWNnAAAAAAEJ7K8WaWI2enBMOTRSS20ydDE4SmZvTlZlQQAAAAAB1WYKFndndVhhY0xzUV9PaGwycVVMVzkxQmcAAAAAAfa5XhZNNDFzbXREUVI1V2UtTnFBdWoxS2VnAAAAAAAAD-QWTDlkNmsybmVUdUNGQWd0VkhvV210ZwAAAAAB9PgtFkotVHVBZWNPUjlXNWVzbFBuX09vb2cAAAAAAM-UChZYaHRMZEVkYlM2V1JISXlCcExyd3dBAAAAAAH1sWYWSk9INzQ2U0JUQnVIa1pXUWxqUk1KZwAAAAAB5r9uFmF1ekxoNmZOU3dha3JWd3VFZHRWVlEAAAAAAQBlghZUODlILU0taVFWMnFsTThvNThleHZB<!>routeTime=0.585<!>esTime=0.311<!>hbaseTime=8.831<!>totalTime=9.727<!>code=0<!>sdkVersion=0.0.8.0<!>indexAlias=WEIBO_CONTENT<!>interfaceType=combinaSearch<!>appkey=yili<!>searchType=ScrollType<!>isShowDetailUser=true<!>isShowFriends=false<!>logId=8f24bc09948338ef884982f367990d7a";
-
-
 
 
     public static final String WeiboPostInteractionUpdate_Post = "{\"end_date\":\"20191219000000\",\"msgType\":\"1\",\"crawlerIdList\":\"23477," +
@@ -465,6 +462,47 @@ public class KafkaMessagePool {
             ".com/bfs/face/f65030bca49055819127bd1bbc7906333d13b167.jpg\",\"nameplate_level\":\"高级勋章\",\"jointime\":\"0\",\"vip_status\":\"1\"," +
             "\"taskId\":\"6673033\",\"official_desc\":\"\"}";
 
+    public static final String NewFouPostPri1 = "{\"msgType\":\"1\",\"title\":\"公司話Work from home, 我發覺我寧願番公司\"," +
+            "\"content\":\"免費冷氣，免費上網，免費充電，免費食水，免費廁紙，免費文具，重有個免費工人清潔。\",\"image_url_list\":\"[\\\"https://www.discuss.com" +
+            ".hk/images/smilies/default/lol.gif\\\"]\",\"page_id\":\"3d1280b63ec019b52f35758231198f95\",\"cat_id\":\"2\",\"_html_\":\"避免过长，省略...\"," +
+            "\"interfaceIdList\":\"[]\",\"jobName\":\"increment_job_20200721115354_506_43\",\"_CT_\":\"1595303802697\",\"full_url\":\"https://www" +
+            ".discuss.com.hk/forumdisplay.php?fid\\u003d408\\u0026filter\\u003d0\\u0026orderby\\u003ddateline\\u0026ascdesc\\u003dDESC\"," +
+            "\"item_id\":\"1174d1adc8e3ed5ce61712f96eedfad6\",\"author\":\"星星同學會\",\"_kafka_data_type_\":\"comment\"," +
+            "\"time_zone\":\"Asia/Shanghai\",\"update_date\":\"20200721115642\",\"url\":\"https://www.discuss.com.hk/viewthread" +
+            ".php?tid\\u003d29235816\",\"site\":\"香港讨论区\",\"is_main_post\":\"0\",\"sourceCrawlerId\":\"24827\"," +
+            "\"parent_item_id\":\"3d1280b63ec019b52f35758231198f95\",\"site_id\":\"1228164\",\"publish_date\":\"20200720062400\"," +
+            "\"taskId\":\"1228232\",\"msgDepth\":\"2\"}";
+
+
+    public static final String NewFouPostPri2 = "{\"msgType\":\"1\",\"title\":\"公司話Work from home, 我發覺我寧願番公司\"," +
+            "\"content\":\"免費冷氣，免費上網，免費充電，免費食水，免費廁紙，免費文具，重有個免費工人清潔。\",\"image_url_list\":\"[\\\"https://www.discuss.com" +
+            ".hk/images/smilies/default/lol.gif\\\"]\",\"page_id\":\"3d1280b63ec019b52f35758231198f95\",\"cat_id\":\"2\",\"_html_\":\"避免过长，省略...\"," +
+            "\"interfaceIdList\":\"[]\",\"jobName\":\"increment_job_20200721115354_506_43\",\"_CT_\":\"1595303802697\",\"full_url\":\"https://www" +
+            ".discuss.com.hk/forumdisplay.php?fid\\u003d408\\u0026filter\\u003d0\\u0026orderby\\u003ddateline\\u0026ascdesc\\u003dDESC\"," +
+            "\"item_id\":\"1174d1adc8e3ed5ce61712f96eedfad6\",\"author\":\"星星同學會\",\"_kafka_data_type_\":\"comment\"," +
+            "\"time_zone\":\"Asia/Shanghai\",\"update_date\":\"20200721115642\",\"url\":\"https://www.discuss.com.hk/viewthread" +
+            ".php?tid\\u003d29235816\",\"site\":\"香港讨论区\",\"is_main_post\":\"0\",\"sourceCrawlerId\":\"24827\"," +
+            "\"parent_item_id\":\"3d1280b63ec019b52f35758231198f95\",\"site_id\":\"1228161\",\"publish_date\":\"20200720062400\"," +
+            "\"taskId\":\"1228232\",\"msgDepth\":\"2\"}";
+
+
+    public static final String NewFouPostType = "{\"end_date\":\"2020-06-24 09:56:00.0\",\"msgType\":\"1\",\"review_count\":\"576\"," +
+            "\"ext_review_count\":\"578\",\"title\":\"mysql_is_very_nice_biu\",\"content\":\"mysql_is_very_nice_biu\"," +
+            "\"image_url_list\":\"[\\\"http://tiebapic.baidu" +
+            ".com/forum/w%3D580/sign\\\\u003d80029d1b15087bf47dec57e1c2d2575e/190e4eed2e738bd42e8b1061b68b87d6267ff977.jpg\\\",\\\"http://tiebapic" +
+            ".baidu.com/forum/w%3D580/sign\\\\u003df121e85e7009c93d07f20effaf3cf8bb/0f056881800a19d88408265524fa828ba71e4695.jpg\\\"," +
+            "\\\"http://tiebapic.baidu.com/forum/w%3D580/sign\\\\u003df121e85e7009c93d07f20effaf3cf8bb/0f056881800a19d88408265524fa828ba71e4695" +
+            ".jpg\\\",\\\"http://tiebapic.baidu.com/forum/w%3D580/sign\\\\u003d980510f4b3c27d1ea5263bcc2bd4adaf" +
+            "/a4b3cd3d70cf3bc7d3076fbcc600baa1cc112a91.jpg\\\"]\",\"page_id\":\"d33796f3cc39d4dec424751c68ced5a6\",\"cat_id\":\"2\"," +
+            "\"_html_\":\"避免过长，省略...\",\"interfaceIdList\":\"[]\",\"lang\":\"\",\"start_date\":\"2020-06-24 09:46:00.0\"," +
+            "\"jobName\":\"we_media_20200624095615_828_45\",\"_CT_\":\"1592963835704\",\"like_count\":\"0\",\"full_url\":\"https://tieba.baidu" +
+            ".com/f?ie\\u003dutf-8\\u0026kw\\u003d%e8%8b%b1%e9%9b%84%e8%81%94%e7%9b%9f\\u0026fr\\u003dsearch\"," +
+            "\"item_id\":\"d33796f3cc39d4dec424751c68ced5a6\",\"other_data\":\"{\\\"forum_name\\\":\\\"英雄联盟吧\\\",\\\"floor\\\":\\\"1\\\"}\"," +
+            "\"author\":\"QRci246\",\"_kafka_data_type_\":\"post\",\"time_zone\":\"PRC\",\"update_date\":\"20200624095715\",\"url\":\"http://tieba" +
+            ".baidu.com/p/6768046389?pn\\u003d1\",\"is_top\":\"1090\",\"share_count\":\"0\",\"site\":\"百度贴吧\",\"is_main_post\":\"1\"," +
+            "\"sourceCrawlerId\":\"788\",\"forum_name\":\"一切都开心吧\",\"site_id\":\"101537\",\"comment_pages\":\"1\",\"is_digest\":\"0\"," +
+            "\"publish_date\":\"20200624094600\",\"device\":\"Android客户端\",\"taskId\":\"1202790\",\"msgDepth\":\"2\",\"post_type\":\"lives\"}";
+
 
     public static final String NewFouTet1 = "{\"msgType\":\"1\",\"review_count\":\"7\",\"user_gender\":\"m\",\"title\":\"求教各位车友，车子打不着\"," +
             "\"content\":\"求教各位车友，车子在路边停着，打了半个小时双闪后，重新发动汽车，半天打不着火，请问这是电瓶没电了吗？\",\"uid\":\"60875826\"," +
@@ -531,4 +569,29 @@ public class KafkaMessagePool {
             "\"crawler\":\"166\",\"sourceCrawlerId\":\"166\",\"crumbs\":\"国创 \\u003e 国产原创相关\",\"site_id\":\"44\",\"barrage_num\":\"11320\"," +
             "\"publish_date\":\"20200208211752\",\"aid\":\"87582200\",\"view_count\":\"957498\",\"taskId\":\"2343033\",\"msgDepth\":\"1\"," +
             "\"video_id\":\"87582200\"}";
+
+
+
+    public static final String shortVideoTest="{\"TOP_N\":\"400\",\"crawlerIdList\":\"24549,25568\",\"review_count\":\"142\"," +
+            "\"challenge_list\":\"[{\\\"challenge_id\\\":\\\"1633570284077063\\\",\\\"challenge_name\\\":\\\"极品飞车21\\\"}]\"," +
+            "\"_track_count_\":\"true\",\"province\":\"\",\"_html_\":\"避免过长，省略...\",\"interfaceIdList\":\"[]\",\"keyword\":\"德运\"," +
+            "\"jobName\":\"watsons_social_v2_20200709000123_648_5\",\"thumbnail\":\"https://p9-dy.byteimg" +
+            ".com/img/tos-cn-p-0015/72e5818995fb4318bd39abb48d7d86bd~noop.jpeg?from\\u003d2563711402_large\"," +
+            "\"unique_id\":\"62fd9c196bfd0e6709f103073fa955b2\",\"like_count\":\"114\",\"author\":\"德运网络资讯\",\"_kafka_data_type_\":\"video\"," +
+            "\"update_date\":\"20200709154135\",\"tags\":\"[\\\"极品飞车21\\\"]\",\"crawler\":\"24551\",\"sourceCrawlerId\":\"24551\"," +
+            "\"goods_title\":\"\",\"district\":\"\",\"site_id\":\"1003583\",\"video_urls\":\"[\\\"https://aweme.snssdk" +
+            ".com/aweme/v1/play/?video_id\\\\u003dv0200f7f0000brtd0i8a2pevfkcr3n0g\\\\u0026line\\\\u003d0\\\\u0026ratio\\\\u003d540p" +
+            "\\\\u0026media_type\\\\u003d4\\\\u0026vr_type\\\\u003d0\\\\u0026improve_bitrate\\\\u003d0\\\\u0026is_play_url\\\\u003d1\\\\u0026source" +
+            "\\\\u003dPackSourceEnum_SEARCH\\\",\\\"https://api.amemv" +
+            ".com/aweme/v1/play/?video_id\\\\u003dv0200f7f0000brtd0i8a2pevfkcr3n0g\\\\u0026line\\\\u003d1\\\\u0026ratio\\\\u003d540p" +
+            "\\\\u0026media_type\\\\u003d4\\\\u0026vr_type\\\\u003d0\\\\u0026improve_bitrate\\\\u003d0\\\\u0026is_play_url\\\\u003d1\\\\u0026source" +
+            "\\\\u003dPackSourceEnum_SEARCH\\\"]\",\"region\":\"\",\"publish_date\":\"20200630160000\",\"msgDepth\":\"18\"," +
+            "\"end_date\":\"20200709000000\",\"is_private\":\"0\",\"user_item_id\":\"63290684207\",\"msgType\":\"1\",\"is_recom\":\"0\"," +
+            "\"city\":\"\",\"title\":\"@德运网络资讯创作的原声\",\"content\":\"#极品飞车21\",\"cat_id\":\"12\",\"lang\":\"\",\"start_date\":\"20200708000000\"," +
+            "\"duration_seconds\":\"29\",\"_CT_\":\"1594280495513\",\"address\":\"\",\"item_id\":\"6844011668326944013\"," +
+            "\"other_data\":\"{\\\"itemInfo\\\":\\\"{}\\\"}\",\"time_zone\":\"null\",\"url\":\"https://www.iesdouyin" +
+            ".com/share/video/6844011668326944013/?region\\u003dCN\\u0026mid\\u003d6844011785113111304\\u0026u_code\\u003d0\\u0026titleType" +
+            "\\u003dtitle\",\"share_count\":\"0\",\"site\":\"抖音app\",\"is_main_post\":\"1\",\"audio_urls\":\"[\\\"http://p9-dy.byteimg" +
+            ".com/obj/ies-music/6844011755383868173.mp3\\\",\\\"http://p3-dy.byteimg.com/obj/ies-music/6844011755383868173.mp3\\\"]\"," +
+            "\"taskId\":\"1334502\",\"video_id\":\"6844011668326944013\"}\n";
 }
