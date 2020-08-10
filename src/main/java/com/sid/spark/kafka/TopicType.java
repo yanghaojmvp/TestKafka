@@ -7,9 +7,9 @@ package com.sid.spark.kafka;
  */
 public enum TopicType {
     topic_rhino_weibo_all("消费微博的数据", KafkaMessagePool.VIDEO_USER_TEST_DATA),
-    topic_rhino_asyncdata_all_bak001("消费采集的异步任务数据_bak", KafkaMessagePool.shortVideoTest),
+    topic_rhino_asyncdata_all_bak001("消费采集的异步任务数据_bak", KafkaMessagePool.WeiboPost),
 
-    topic_rhino_news_bbs_all_v3_bak001("v3新闻论坛", KafkaMessagePool.NewFouPostPri1),
+    ftopic_rhino_asyncdata_all("v3新闻论坛", KafkaMessagePool.NewFouPost0),
 
     topic_rhino_video_all_v1("B站用户数据",KafkaMessagePool.VIDEO_USER_TEST_DATA),
     topic_rhino_weibo_update("微博互动量更新",KafkaMessagePool.WeiboPostInteractionUpdate),

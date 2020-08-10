@@ -194,11 +194,11 @@ public class KafkaMessagePool {
             "\\\"inReplyToScreenName\\\":\\\"\\\",\\\"thumbnailPic\\\":\\\"\\\",\\\"bmiddlePic\\\":\\\"\\\",\\\"originalPic\\\":\\\"\\\"," +
             "\\\"geo\\\":\\\"null\\\",\\\"latitude\\\":-1.0,\\\"longitude\\\":-1.0,\\\"repostsCount\\\":0,\\\"commentsCount\\\":1," +
             "\\\"attitudesCount\\\":1,\\\"annotations\\\":\\\"\\\",\\\"mlevel\\\":0,\\\"feature\\\":1,\\\"visible\\\":{\\\"type\\\":0," +
-            "\\\"list_id\\\":0}}\",\"_html_\":\"避免过长，省略...\",\"interfaceIdList\":\"[\\\"1\\\"]\",\"lang\":\"\",\"start_date\":\"20101211000000\"," +
+            "\\\"list_id\\\":0}}\",\"_html_\":\"避免过长，省略...\",\"interfaceIdList\":\"[\\\"2\\\"]\",\"lang\":\"\",\"start_date\":\"20101211000000\"," +
             "\"jobName\":\"CP4358_20200630202802_270_11\",\"from_type\":\"null\",\"_CT_\":\"1593520096035\",\"salt\":\"null\"," +
             "\"item_id\":\"4521612983038476\",\"_kafka_data_type_\":\"post\",\"time_zone\":\"PRC\",\"update_date\":\"20200630202816\"," +
             "\"site\":\"新浪微博\",\"crawler\":\"2990\",\"sourceCrawlerId\":\"2990\",\"site_id\":\"101993\",\"topic\":\"null\"," +
-            "\"CONTROL_AMOUNT\":\"1\",\"retweet_id\":\"\",\"publish_date\":\"20200630202645\",\"taskId\":\"1336150\",\"msgDepth\":\"1\"}\n";
+            "\"CONTROL_AMOUNT\":\"1\",\"retweet_id\":\"\",\"publish_date\":\"20200630202645\",\"taskId\":\"66778\",\"msgDepth\":\"1\"}\n";
 
 
     public static final String WeiboUser = "{\"jobName\":\"CP4358_20200630201625_485_48\",\"end_date\":\"20200612180000\",\"msgType\":\"1\"," +
@@ -462,17 +462,40 @@ public class KafkaMessagePool {
             ".com/bfs/face/f65030bca49055819127bd1bbc7906333d13b167.jpg\",\"nameplate_level\":\"高级勋章\",\"jointime\":\"0\",\"vip_status\":\"1\"," +
             "\"taskId\":\"6673033\",\"official_desc\":\"\"}";
 
+
+    public static final String NewFouPost0 = "{\"msgType\":\"1\",\"title\":\"sd from home, 我發覺我寧願番公司\"," +
+            "\"content\":\"免費冷氣，免費上網，免費充電，免費食水，免費廁紙，免費文具，重有個免費工人清潔。\",\"image_url_list\":\"[\\\"https://www.discuss.com" +
+            ".hk/images/smilies/default/lol.gif\\\"]\",\"page_id\":\"3d1280b63ec019b52f35758231198f95\",\"cat_id\":\"2\",\"_html_\":\"避免过长，省略...\"," +
+            "\"interfaceIdList\":\"[]\",\"jobName\":\"increment_job_20200721115354_506_43\",\"_CT_\":\"1595303802697\",\"full_url\":\"https://www" +
+            ".discuss.com.hk/forumdisplay.php?fid\\u003d408\\u0026filter\\u003d0\\u0026orderby\\u003ddateline\\u0026ascdesc\\u003dDESC\"," +
+            "\"item_id\":\"23456YUHGFRW345672332d2\",\"author22\":\"星星同學會22\",\"_kafka_data_type_\":\"post\"," +
+            "\"time_zone\":\"Asia/Shanghai\",\"update_date\":\"20200721115642\",\"url\":\"https://www.discuss.com.hk/viewthread" +
+            ".php?tid\\u003d29235816\",\"site\":\"澳门讨论区\",\"is_main_post\":\"0\",\"sourceCrawlerId\":\"24827\"," +
+            "\"parent_item_id\":\"3d1280b63ec019b52f35758231198f95\",\"site_id\":\"3433\",\"publish_date\":\"20200720062400\"," +
+            "\"taskId\":\"1228232\",\"msgDepth\":\"2\"}";
+
+
     public static final String NewFouPostPri1 = "{\"msgType\":\"1\",\"title\":\"公司話Work from home, 我發覺我寧願番公司\"," +
             "\"content\":\"免費冷氣，免費上網，免費充電，免費食水，免費廁紙，免費文具，重有個免費工人清潔。\",\"image_url_list\":\"[\\\"https://www.discuss.com" +
             ".hk/images/smilies/default/lol.gif\\\"]\",\"page_id\":\"3d1280b63ec019b52f35758231198f95\",\"cat_id\":\"2\",\"_html_\":\"避免过长，省略...\"," +
             "\"interfaceIdList\":\"[]\",\"jobName\":\"increment_job_20200721115354_506_43\",\"_CT_\":\"1595303802697\",\"full_url\":\"https://www" +
             ".discuss.com.hk/forumdisplay.php?fid\\u003d408\\u0026filter\\u003d0\\u0026orderby\\u003ddateline\\u0026ascdesc\\u003dDESC\"," +
             "\"item_id\":\"1174d1adc8e3ed5ce61712f96eedfad6\",\"author\":\"星星同學會\",\"_kafka_data_type_\":\"comment\"," +
-            "\"time_zone\":\"Asia/Shanghai\",\"update_date\":\"20200721115642\",\"url\":\"https://www.discuss.com.hk/viewthread" +
+            "\"time_zone\":\"Asia/Shanghai\",\"update_date22\":\"20200721115642\",\"url\":\"https://www.discuss.com.hk/viewthread" +
             ".php?tid\\u003d29235816\",\"site\":\"香港讨论区\",\"is_main_post\":\"0\",\"sourceCrawlerId\":\"24827\"," +
             "\"parent_item_id\":\"3d1280b63ec019b52f35758231198f95\",\"site_id\":\"1228164\",\"publish_date\":\"20200720062400\"," +
             "\"taskId\":\"1228232\",\"msgDepth\":\"2\"}";
 
+    public static final String NewFouPostPri0 = "{\"msgType\":\"1\",\"title\":\"22222222公司話Work from home, 我發覺我寧願番公司\"," +
+            "\"content\":\"免費冷氣，免費上網，免費充電，免費食水，免費廁紙，免費文具，重有個免費工人清潔。\",\"image_url_list\":\"[\\\"https://www.discuss.com" +
+            ".hk/images/smilies/default/lol.gif\\\"]\",\"page_id\":\"3d1280b63ec019b52f35758231198f95\",\"cat_id\":\"2\",\"_html_\":\"避免过长，省略...\"," +
+            "\"interfaceIdList\":\"[]\",\"jobName\":\"increment_job_20200721115354_506_43\",\"_CT_\":\"1595303802697\",\"full_url\":\"https://www" +
+            ".discuss.com.hk/forumdisplay.php?fid\\u003d408\\u0026filter\\u003d0\\u0026orderby\\u003ddateline\\u0026ascdesc\\u003dDESC\"," +
+            "\"item_id\":\"23456YUHGFRW345672332d2\",\"author22\":\"星星同學會22\",\"_kafka_data_type_\":\"comment\"," +
+            "\"time_zone\":\"Asia/Shanghai\",\"update_date\":\"20200721115642\",\"url\":\"https://www.discuss.com.hk/viewthread" +
+            ".php?tid\\u003d29235816\",\"site\":\"香港讨论区\",\"is_main_post\":\"0\",\"sourceCrawlerId\":\"24827\"," +
+            "\"parent_item_id\":\"3d1280b63ec019b52f35758231198f95\",\"site_id\":\"1228164\",\"publish_date\":\"20200720062400\"," +
+            "\"taskId\":\"1228232\",\"msgDepth\":\"2\"}";
 
     public static final String NewFouPostPri2 = "{\"msgType\":\"1\",\"title\":\"公司話Work from home, 我發覺我寧願番公司\"," +
             "\"content\":\"免費冷氣，免費上網，免費充電，免費食水，免費廁紙，免費文具，重有個免費工人清潔。\",\"image_url_list\":\"[\\\"https://www.discuss.com" +
