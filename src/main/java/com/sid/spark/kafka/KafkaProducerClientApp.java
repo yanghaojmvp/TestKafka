@@ -9,7 +9,7 @@ public class KafkaProducerClientApp {
 
     public static void main(String[] args) {
 //        TopicType topicType = TopicType.topic_rhino_asyncdata_all_bak001;
-        TopicType topicType = TopicType.topic_rhino_asyncdata_all_bak001;
+        TopicType topicType = TopicType.topic_rhino_asyncdata_all_bak002;
 
 //        TopicType topicType = TopicType.banyan_sdk_server_log_test;
 

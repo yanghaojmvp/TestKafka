@@ -6,16 +6,18 @@ package com.sid.spark.kafka;
  * 类解释：
  */
 public enum TopicType {
-    topic_rhino_weibo_all("消费微博的数据", KafkaMessagePool.VIDEO_USER_TEST_DATA),
-    topic_rhino_asyncdata_all_bak001("消费采集的异步任务数据_bak", KafkaMessagePool.WeiboPost),
+    topic_rhino_weibo_all_v3("消费微博的数据", KafkaMessagePool.babyPostString),
 
-    ftopic_rhino_asyncdata_all("v3新闻论坛", KafkaMessagePool.NewFouPost0),
+    //topic_rhino_weibo_all_bak001
+    //topic_rhino_asyncdata_all_bak001;
+    topic_rhino_asyncdata_all_bak002("消费采集的异步任务数据_bak", KafkaMessagePool.newsUser),
+    topic_rhino_news_bbs_all_v3("消费采集的异步任务数据_bak", KafkaMessagePool.newsUser3),
 
-    topic_rhino_video_all_v1("B站用户数据",KafkaMessagePool.VIDEO_USER_TEST_DATA),
-    topic_rhino_weibo_update("微博互动量更新",KafkaMessagePool.WeiboPostInteractionUpdate),
-    topic_rhino_asyncdata_all("消费采集的异步任务数据", KafkaMessagePool.WeiboAdvUser),
 
-    banyan_sdk_server_log_test("sdk-api查询接口日志数据",KafkaMessagePool.test003_sdk_begin_log);
+    topic_rhino_car_all_v2("B站用户数据",KafkaMessagePool.newsUser),
+    topic_rhino_weibo_update("微博互动量更新",KafkaMessagePool.babyPostString),
+
+    banyan_sdk_server_log_test("sdk-api查询接口日志数据",KafkaMessagePool.babyPostString);
 
 
 

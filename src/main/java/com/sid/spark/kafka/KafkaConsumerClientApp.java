@@ -8,6 +8,6 @@ package com.sid.spark.kafka;
 public class KafkaConsumerClientApp {
 
     public static void main(String[] args) {
-        new KafkaConsumer("").start();
+        new KafkaConsumer("topic_rhino_asyncdata_all_bak002").start();
     }
 }
